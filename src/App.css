@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+:root {
+  --dark-cyan: #588b8b;
+  --mindaro: #fffc99;
+  --nyanza: #eafdcf;
+  --dark-purple: #241023;
+  --gunmetal: #2d3142;
+}
+
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+.nav-button {
+  padding: 10px 10px 10px 0px;
+  text-decoration: none;
+}
