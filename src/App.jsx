@@ -1,11 +1,15 @@
 import './App.css';
-import Portfolio from './components/Portfolio';
+import { Outlet } from 'react-router-dom';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="content-main">
-      <Portfolio />
-    </div>
+    <>
+      <Navbar />
+      <main className="primaryContent">
+        <Outlet />
+      </main>
+    </>
   );
 }
 

@@ -1,11 +1,7 @@
-import Navbar from './Navbar';
-import AboutMe from './AboutMe';
-
 function Portfolio() {
   return (
     <>
-      <Navbar />
-      <AboutMe />
+      <p>This is a home page</p>
     </>
   );
 }

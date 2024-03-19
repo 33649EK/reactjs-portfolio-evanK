@@ -3,7 +3,7 @@ import { useState } from 'react';
 function Navbar() {
   return (
     <nav>
-      <a href="/AboutMe" className="nav-button">
+      <a href="/About" className="nav-button">
         About Me
       </a>
       <a href="/Portfolio" className="nav-button">
