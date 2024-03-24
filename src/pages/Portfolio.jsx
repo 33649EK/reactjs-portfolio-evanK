@@ -3,29 +3,60 @@ const Portfolio = () => {
     <>
       <h1>Portfolio</h1>
       <div className="portLinks">
-        <a href="link1">
-          <img src="image1.jpg" alt="Image 1" />
-        </a>
-
-        <a href="link2">
-          <img src="image2.jpg" alt="Image 2" />
-        </a>
-
-        <a href="link3">
-          <img src="image3.jpg" alt="Image 3" />
-        </a>
-
-        <a href="link4">
-          <img src="image4.jpg" alt="Image 4" />
-        </a>
-
-        <a href="link5">
-          <img src="image5.jpg" alt="Image 5" />
-        </a>
-
-        <a href="link6">
-          <img src="image6.jpg" alt="Image 6" />
-        </a>
+        <div className="portCard">
+          <h2>Beat Buddy</h2>
+          <a href="https://github.com/33649EK/beat-buddy/deployments/github-pages">
+            <img
+              src="src/assets/images/BeatBuddy.png"
+              alt="image of beat buddy application"
+            />
+          </a>
+        </div>
+        <div className="portCard">
+          <h2>FurEver Friends</h2>
+          <a href="https://github.com/davisjeff500/FurEver-Friends">
+            <img
+              src="src/assets/images/FurEver.png"
+              alt="image of fur ever friends application"
+            />
+          </a>
+        </div>
+        <div className="portCard">
+          <h2>Project Title</h2>
+          <a href="https://github.com/33649EK">
+            <img
+              src="src/assets/images/Placeholder.jpg"
+              alt="placeholder image"
+            />
+          </a>
+        </div>
+        <div className="portCard">
+          <h2>Project Title</h2>
+          <a href="https://github.com/33649EK">
+            <img
+              src="src/assets/images/Placeholder.jpg"
+              alt="placeholder image"
+            />
+          </a>
+        </div>
+        <div className="portCard">
+          <h2>Project Title</h2>
+          <a href="https://github.com/33649EK">
+            <img
+              src="src/assets/images/Placeholder.jpg"
+              alt="placeholder image"
+            />
+          </a>
+        </div>
+        <div className="portCard">
+          <h2>Project Title</h2>
+          <a href="https://github.com/33649EK">
+            <img
+              src="src/assets/images/Placeholder.jpg"
+              alt="placeholder image"
+            />
+          </a>
+        </div>
       </div>
     </>
   );

@@ -40,7 +40,7 @@ footer {
   font-weight: bolder;
   background-color: var(--robin-blue);
   margin-right: 20px;
-  margin-bottom: 15px;
+  /* margin-bottom: 15px; */
   font-size: 30px;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
@@ -168,3 +168,43 @@ li::before {
 .resumeHeader + ul {
   margin-top: 5px;
 }
+
+.portLinks {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  height: 100vh;
+  margin-bottom: 10px;
+}
+
+.portCard {
+  background-color: var(--white);
+  position: relative; /* Ensures proper stacking context for absolute positioning */
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+  overflow: hidden; /* Hides the child elements that overflow the card */
+}
+
+.portCard img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  opacity: 0.7;
+  transition: opacity 0.3s ease; 
+}
+
+.portCard:hover img {
+  opacity: 1; 
+}
+
+.portCard h2 {
+  margin-bottom: 35px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(255, 255, 255, 0.8); 
+  padding: 5px 10px;
+}
+
