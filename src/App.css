@@ -45,6 +45,13 @@ footer {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
 }
 
+.footerLink {
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--robin-blue);
+  margin-right: 20px;
+}
+
 .name {
   color: var(--white);
   font-weight: bolder;
