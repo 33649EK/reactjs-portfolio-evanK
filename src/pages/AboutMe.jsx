@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <div className="aboutme">
-      <img src="src/assets/images/Portrait.jpg" className="portraitImage" />
+      <img src="./images/Portrait.jpg" className="portraitImage" />
       <div className="textContent">
         <h1 className="aboutHeader">About Me</h1>
         <p>
