@@ -4,6 +4,9 @@
 
 Portfolio website built with React.js.
 
+![about me](./assets/AboutMe.png)
+![portfolio](./assets/Portfolio.png)
+
 ## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
@@ -18,8 +21,7 @@ N/A
 
 ## Usage
 
-1. Start the development server: `npm start`
-2. Open your browser and visit `http://localhost:3000` to view the portfolio website.
+Application can be found at https://silly-gumdrop-e030ec.netlify.app
 
 ## Credits
 
