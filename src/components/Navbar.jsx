@@ -1,7 +1,8 @@
-import { useLocation } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 const Navbar = () => {
   const location = useLocation();
 
+  // Following const variables affect what class is present on each button dependent on window location.
   const aboutCurrentPage = location.pathname === '/About' ? 'currentPage' : '';
 
   const portfolioCurrentPage =
@@ -16,18 +17,18 @@ const Navbar = () => {
   return (
     <nav>
       <h1 className="name">Evan Keller</h1>
-      <a href="/About" className={`nav-button ${aboutCurrentPage}`}>
+      <Link to="/About" className={`nav-button ${aboutCurrentPage}`}>
         About Me
-      </a>
-      <a href="/Portfolio" className={`nav-button ${portfolioCurrentPage}`}>
+      </Link>
+      <Link to="/Portfolio" className={`nav-button ${portfolioCurrentPage}`}>
         Portfolio
-      </a>
-      <a href="/Contact" className={`nav-button ${contactCurrentPage}`}>
+      </Link>
+      <Link to="/Contact" className={`nav-button ${contactCurrentPage}`}>
         Contact
-      </a>
-      <a href="/Resume" className={`nav-button ${resumeCurrentPage}`}>
+      </Link>
+      <Link to="/Resume" className={`nav-button ${resumeCurrentPage}`}>
         Resume
-      </a>
+      </Link>
     </nav>
   );
 };
