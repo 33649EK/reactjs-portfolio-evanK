@@ -12,6 +12,12 @@ const Project = ({ title, image, altText, link }) => {
 const Portfolio = () => {
   const projects = [
     {
+      title: 'TaskMaster',
+      image: './images/TaskMasterHome.png',
+      altText: 'image of task master application',
+      link: 'https://github.com/33649EK/Task-Master',
+    },
+    {
       title: 'Beat Buddy',
       image: './images/BeatBuddy.png',
       altText: 'image of beat buddy application',
@@ -22,12 +28,6 @@ const Portfolio = () => {
       image: './images/FurEver.png',
       altText: 'image of fur ever friends application',
       link: 'https://github.com/davisjeff500/FurEver-Friends',
-    },
-    {
-      title: 'Project Title',
-      image: './images/Placeholder.jpg',
-      altText: 'placeholder image',
-      link: 'https://github.com/33649EK',
     },
     {
       title: 'Project Title',
