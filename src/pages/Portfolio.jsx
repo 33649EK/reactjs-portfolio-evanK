@@ -1,10 +1,31 @@
+import {
+  Card,
+  CardBody,
+  Stack,
+  Heading,
+  Text,
+  Image,
+  Divider,
+  CardFooter,
+} from '@chakra-ui/react';
+
 const Project = ({ title, image, altText, link }) => {
   return (
-    <div className="portCard">
-      <h2>{title}</h2>
+    <div>
+      {/* <h2>{title}</h2>
       <a href={link}>
         <img src={image} alt={altText} />
-      </a>
+      </a> */}
+      <Card maxW="sm">
+        <CardBody>
+          <Image src={image} alt={altText} borderRadius="lg" />
+          <Stack mt="6" spacing="3">
+            <Heading size="md">{title}</Heading>
+          </Stack>
+        </CardBody>
+
+        <CardFooter>Hello</CardFooter>
+      </Card>
     </div>
   );
 };

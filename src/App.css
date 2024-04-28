@@ -1,9 +1,9 @@
 :root {
-  --robin-blue: #25CED1;
-  --white: #FFFFFF;
-  --champagne-pink: #FCEADE;
-  --coral: #FF8A5B;
-  --pink: #EA526F;
+  --robin-blue: #25ced1;
+  --white: #ffffff;
+  --champagne-pink: #fceade;
+  --coral: #ff8a5b;
+  --pink: #ea526f;
 }
 
 * {
@@ -29,7 +29,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
- height: 100vh;
+  height: 100vh;
 }
 
 footer {
@@ -114,8 +114,8 @@ footer {
   height: 100vh;
 }
 
-.contactForm input[type="text"],
-.contactForm input[type="email"],
+.contactForm input[type='text'],
+.contactForm input[type='email'],
 .contactForm textarea {
   width: 100%;
   padding: 8px;
@@ -126,7 +126,7 @@ footer {
   background-color: white;
 }
 
-.contactForm button[type="submit"] {
+.contactForm button[type='submit'] {
   background-color: #4caf50;
   color: white;
   padding: 10px 20px;
@@ -135,7 +135,7 @@ footer {
   cursor: pointer;
 }
 
-.contactForm button[type="submit"]:hover {
+.contactForm button[type='submit']:hover {
   background-color: #45a049;
 }
 
@@ -165,7 +165,7 @@ li {
 }
 
 li::before {
-  content: "•";
+  content: '•';
   color: #555;
   display: inline-block;
   width: 1em;
@@ -198,11 +198,11 @@ li::before {
   height: 200px;
   object-fit: cover;
   opacity: 0.7;
-  transition: opacity 0.3s ease; 
+  transition: opacity 0.3s ease;
 }
 
 .portCard:hover img {
-  opacity: 1; 
+  opacity: 1;
 }
 
 .portCard h2 {
@@ -211,7 +211,6 @@ li::before {
   bottom: 10px;
   left: 50%;
   transform: translateX(-50%);
-  background-color: rgba(255, 255, 255, 0.8); 
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 5px 10px;
 }
-
