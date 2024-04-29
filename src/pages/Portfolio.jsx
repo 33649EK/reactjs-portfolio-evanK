@@ -15,18 +15,17 @@ const Project = ({ title, image, altText, link, tech }) => {
   return (
     <>
       <LinkBox as="article">
-        <Card maxW="sm">
-          <CardBody>
-            <Image src={image} alt={altText} borderRadius="lg" />
-            <Stack mt="6" spacing="3">
-              <Heading size="md">
-                <LinkOverlay href={link} target="_blank">
-                  {title}
-                </LinkOverlay>
-              </Heading>
-            </Stack>
-          </CardBody>
-          <CardFooter>{tech}</CardFooter>
+        <Card maxW="sm" className="linkCard">
+          <Image src={image} alt={altText} borderRadius="lg" />
+          <Stack mt="6" spacing="3">
+            <Heading size="md" className="headerla">
+              <LinkOverlay href={link} target="_blank">
+                {title}
+              </LinkOverlay>
+            </Heading>
+          </Stack>
+
+          <CardFooter className="cardFooter">{tech}</CardFooter>
         </Card>
       </LinkBox>
     </>
