@@ -184,6 +184,18 @@ li::before {
   margin-bottom: 10px;
 }
 
+@media screen and (width <= 800px) {
+  .portLinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+/* Port Card not in use for the time being */
 .portCard {
   background-color: var(--white);
   position: relative; /* Ensures proper stacking context for absolute positioning */
