@@ -55,27 +55,27 @@ const Portfolio = () => {
       link: 'https://github.com/davisjeff500/FurEver-Friends',
       tech: 'Handlebars/MySQL',
     },
-    // {
-    //   title: 'Project Title',
-    //   image: './images/Placeholder.jpg',
-    //   altText: 'placeholder image',
-    //   link: 'https://github.com/33649EK',
-    //   tech: 'Placeholder',
-    // },
-    // {
-    //   title: 'Project Title',
-    //   image: './images/Placeholder.jpg',
-    //   altText: 'placeholder image',
-    //   link: 'https://github.com/33649EK',
-    //   tech: 'Placeholder',
-    // },
-    // {
-    //   title: 'Project Title',
-    //   image: './images/Placeholder.jpg',
-    //   altText: 'placeholder image',
-    //   link: 'https://github.com/33649EK',
-    //   tech: 'Placeholder',
-    // },
+    {
+      title: 'Project Title',
+      image: './images/Placeholder.jpg',
+      altText: 'placeholder image',
+      link: 'https://github.com/33649EK',
+      tech: 'Placeholder',
+    },
+    {
+      title: 'Project Title',
+      image: './images/Placeholder.jpg',
+      altText: 'placeholder image',
+      link: 'https://github.com/33649EK',
+      tech: 'Placeholder',
+    },
+    {
+      title: 'Project Title',
+      image: './images/Placeholder.jpg',
+      altText: 'placeholder image',
+      link: 'https://github.com/33649EK',
+      tech: 'Placeholder',
+    },
   ];
 
   return (
