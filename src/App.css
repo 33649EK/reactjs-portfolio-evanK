@@ -177,14 +177,19 @@ li::before {
   margin-top: 5px;
 }
 
+.contentContent {
+  display: flex;
+  justify-content: center;
+}
+
 .portLinks {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
+  max-width: fit-content;
   /* height: 100vh; */
   margin-bottom: 10px;
   margin-top: 15px;
-  align-content: center;
 }
 
 .linkCard {

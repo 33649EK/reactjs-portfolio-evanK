@@ -79,7 +79,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <>
+    <div className="contentContent">
       <div className="portLinks">
         {projects.map((project, index) => (
           <Project
@@ -92,7 +92,7 @@ const Portfolio = () => {
           />
         ))}
       </div>
-    </>
+    </div>
   );
 };
 
