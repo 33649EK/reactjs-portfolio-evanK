@@ -79,7 +79,7 @@ const Portfolio = () => {
   ];
 
   return (
-    <div className="contentContent">
+    <div className="portfolioContainer">
       <div className="portLinks">
         {projects.map((project, index) => (
           <Project

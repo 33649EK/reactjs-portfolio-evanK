@@ -44,39 +44,42 @@ const Contact = () => {
   };
 
   return (
-    <div className="contactForm">
-      <h1 className="contactHeader">Contact Me</h1>
-      <form>
-        <label htmlFor="name">
-          Name: {nameError && <span style={{ color: 'red' }}>{nameError}</span>}
-        </label>
-        <input
-          type="text"
-          id="name"
-          name="name"
-          value={name}
-          onChange={handleNameChange}
-          onBlur={handleNameBlur}
-        />
+    <div className="contactContainer">
+      <div className="contactForm">
+        <h1 className="contactHeader">Contact Me</h1>
+        <form>
+          <label htmlFor="name">
+            Name:{' '}
+            {nameError && <span style={{ color: 'red' }}>{nameError}</span>}
+          </label>
+          <input
+            type="text"
+            id="name"
+            name="name"
+            value={name}
+            onChange={handleNameChange}
+            onBlur={handleNameBlur}
+          />
 
-        <label htmlFor="email">
-          Email:{' '}
-          {emailError && <span style={{ color: 'red' }}>{emailError}</span>}
-        </label>
-        <input
-          type="email"
-          id="email"
-          name="email"
-          value={email}
-          onChange={handleEmailChange}
-          onBlur={handleEmailBlur}
-        />
+          <label htmlFor="email">
+            Email:{' '}
+            {emailError && <span style={{ color: 'red' }}>{emailError}</span>}
+          </label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            value={email}
+            onChange={handleEmailChange}
+            onBlur={handleEmailBlur}
+          />
 
-        <label htmlFor="message">Message:</label>
-        <textarea id="message" name="message" rows="4" />
+          <label htmlFor="message">Message:</label>
+          <textarea id="message" name="message" rows="4" />
 
-        <button type="submit">Submit</button>
-      </form>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
     </div>
   );
 };

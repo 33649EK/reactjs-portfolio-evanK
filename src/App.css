@@ -83,7 +83,7 @@ footer {
   border: 1px solid var(--robin-blue);
   width: 200px;
   height: 250px;
-  margin-top: 50px;
+  margin-top: 9px;
   margin-left: 10px;
   margin-right: 10px;
 }
@@ -95,16 +95,23 @@ footer {
   max-width: 700px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 10px;
 }
 
 .aboutHeader {
   text-decoration: underline;
   color: var(--nyanza);
+  font-size: 25px;
 }
 
 .currentPage {
   background-color: var(--pink);
   color: var(--white);
+}
+
+.contactContainer {
+  display: flex;
+  justify-content: center;
 }
 
 .contactForm {
@@ -113,6 +120,7 @@ footer {
   align-items: center;
   margin-top: 50px;
   height: 100vh;
+  max-width: 700px;
 }
 
 .contactForm input[type='text'],
@@ -177,7 +185,7 @@ li::before {
   margin-top: 5px;
 }
 
-.contentContent {
+.portfolioContainer {
   display: flex;
   justify-content: center;
 }
@@ -253,6 +261,12 @@ li::before {
     margin-right: auto;
   }
 
+  footer {
+    bottom: auto; /* Allows footer to properly move to bottom of page when page is small */
+  }
+}
+
+@media screen and (height < 1170px) {
   footer {
     bottom: auto; /* Allows footer to properly move to bottom of page when page is small */
   }
