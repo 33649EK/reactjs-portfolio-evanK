@@ -280,6 +280,10 @@ li::before {
     margin-bottom: 10px;
   }
 
+  .nav-button {
+    margin: 0 5px;
+  }
+
   .name {
     margin-bottom: 10px;
     margin-top: -10px;
