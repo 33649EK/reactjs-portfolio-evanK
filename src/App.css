@@ -277,11 +277,13 @@ li::before {
   }
 
   .navLinks {
+    display: flex;
     margin-bottom: 10px;
   }
 
   .nav-button {
     margin: 0 5px;
+    font-size: 14px;
   }
 
   .name {
