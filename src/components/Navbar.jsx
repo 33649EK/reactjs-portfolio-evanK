@@ -17,18 +17,20 @@ const Navbar = () => {
   return (
     <nav>
       <h1 className="name">Evan Keller</h1>
-      <Link to="/About" className={`nav-button ${aboutCurrentPage}`}>
-        About Me
-      </Link>
-      <Link to="/Portfolio" className={`nav-button ${portfolioCurrentPage}`}>
-        Portfolio
-      </Link>
-      <Link to="/Contact" className={`nav-button ${contactCurrentPage}`}>
-        Contact
-      </Link>
-      <Link to="/Resume" className={`nav-button ${resumeCurrentPage}`}>
-        Resume
-      </Link>
+      <div className="navLinks">
+        <Link to="/About" className={`nav-button ${aboutCurrentPage}`}>
+          About Me
+        </Link>
+        <Link to="/Portfolio" className={`nav-button ${portfolioCurrentPage}`}>
+          Portfolio
+        </Link>
+        <Link to="/Contact" className={`nav-button ${contactCurrentPage}`}>
+          Contact
+        </Link>
+        <Link to="/Resume" className={`nav-button ${resumeCurrentPage}`}>
+          Resume
+        </Link>
+      </div>
     </nav>
   );
 };
