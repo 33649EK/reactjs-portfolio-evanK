@@ -16,7 +16,7 @@ const Project = ({ title, image, altText, link, tech }) => {
     <>
       <LinkBox as="article">
         <Card maxW="sm" className="linkCard">
-          <Image src={image} alt={altText} borderRadius="lg" />
+          <Image src={image} alt={altText} borderRadius="lg" className='portfolioImage'/>
           <Stack mt="6" spacing="3">
             <Heading size="md" className="headerla">
               <LinkOverlay href={link} target="_blank">

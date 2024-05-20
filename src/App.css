@@ -92,6 +92,12 @@ footer {
   margin-right: 10px;
 }
 
+.portfolioImage {
+  border: 1px solid var(--robin-blue);
+  width: 350px;
+  height: 200px;
+}
+
 .aboutme {
   display: flex;
   justify-content: center;
@@ -291,6 +297,13 @@ li::before {
   .name {
     margin-bottom: 10px;
     margin-top: -10px;
+  }
+
+  .portfolioImage {
+    border: 1px solid var(--robin-blue);
+    width: 350px;
+    height: 200px;
+    
   }
 }
 
