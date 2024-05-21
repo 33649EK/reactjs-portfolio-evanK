@@ -77,7 +77,7 @@ const Contact = () => {
           <label htmlFor="message">Message:</label>
           <textarea id="message" name="message" rows="4" />
 
-          <button type="submit">Submit</button>
+          <button className='g-recaptcha' data-sitekey='6LfSDOMpAAAAAO4rOERfMlXG1ChjRK9QT6dGVQNz' data-callback='onSubmit' type="submit">Submit</button>
         </form>
       </div>
     </div>
