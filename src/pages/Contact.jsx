@@ -47,7 +47,7 @@ const Contact = () => {
     <div className="contactContainer">
       <div className="contactForm">
         <h1 className="contactHeader">Contact Me</h1>
-        <form>
+        <form action='https://formspree.io/f/xgegbvkp' method='POST'>
           <label htmlFor="name">
             Name:{' '}
             {nameError && <span style={{ color: 'red' }}>{nameError}</span>}
